@@ -83,10 +83,10 @@
 ## 3.1. WriteDay 클래스
 - 글 작성 화면에서 입력한 날짜, 제목, 사진 등을 SD카드에 생성한 mydir 파일에 저장한다.
 
-![calendarView 대화상자](https://user-images.githubusercontent.com/52684942/97515590-b4157b80-19d4-11eb-82b3-442b267a9a08.PNG)
+![calendarView 대화상자](https://user-images.githubusercontent.com/52684942/97515590-b4157b80-19d4-11eb-82b3-442b267a9a08.PNG)<br>
 [CalendarView 대화상자]
 
-![sd카드](https://user-images.githubusercontent.com/52684942/97515596-b7106c00-19d4-11eb-853c-b35cf0fe1aa7.PNG)
+![sd카드](https://user-images.githubusercontent.com/52684942/97515596-b7106c00-19d4-11eb-853c-b35cf0fe1aa7.PNG)<br>
 [sd 카드]
 
 ## 3.2. MainActivity 클래스
