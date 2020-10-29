@@ -79,31 +79,29 @@
 ```
 
 ****
-# 3. 사용 기술
-## 4.1. 블루투스 통신 (BlutoothSPP)
-![통신1](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/smart/통신1.png)
-```
-설명 : 블루투스 변수를 선언하고, 생성자를 정의한다.
-```
-![통신2](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/smart/통신2.png)
-```
-설명 : 아두이노에서 온 데이터를 data 배열에 넣어 합친 후, message를 통해 Toast 메시지를 출력한다.
-```
-![통신3](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/smart/통신3.png)
-```
-설명 : 블루투스 연결 버튼 변수를 선언하고, 페어링 되어있는 기기 목록 출력 화면을 생성한다.
-```
-![통신4](https://github.com/Jeongwonseok/Portfolio_JWS/blob/master/image/smart/통신4.png)
-```
-설명 : 블루투스 중지 및 시작 함수를 선언한다.
-```
+# 3. 시스템 설계(Java)
+## 3.1. WriteDay 클래스
+- 글 작성 화면에서 입력한 날짜, 제목, 사진 등을 SD카드에 생성한 mydir 파일에 저장한다.
+
+![calendarView 대화상자](https://user-images.githubusercontent.com/52684942/97515590-b4157b80-19d4-11eb-82b3-442b267a9a08.PNG)
+[CalendarView 대화상자]
+
+![sd카드](https://user-images.githubusercontent.com/52684942/97515596-b7106c00-19d4-11eb-853c-b35cf0fe1aa7.PNG)
+[sd 카드]
+
+## 3.2. MainActivity 클래스
+- 탭 위젯의 명칭, SD카드 쓰기 권한 등 메인화면과 관련한 클래스이다.
+
+## 3.3. CalendarAdapter 클래스
+- mDayList 배열을 통해 날짜를 저장한다.
+
+## 3.4. DayInfo 클래스
+- 하루 날짜장보를 저장하는 클래스이다.
+
+## 3.6. setting 클래스
+- 비밀번호 설정 switch 위젯과 연결하기 위한 객체 생성한다.
 
 
-
-****
-# 4. 부록
-## 4.1. 참여 목록
-* 
     
     
  
